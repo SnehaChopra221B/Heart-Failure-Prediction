@@ -9,13 +9,13 @@
 
 ---
 
-## 📊 Overview
+## Overview
 
 This project uses machine learning to **predict heart disease** using clinical features like age, blood pressure, cholesterol levels, and more. It is based on a dataset collected from multiple hospitals.
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 - KNN classifier with hyperparameter tuning (`GridSearchCV`)
 - Data cleaning and preprocessing for real-world medical data
@@ -25,7 +25,7 @@ This project uses machine learning to **predict heart disease** using clinical f
 
 ---
 
-## 📁 Dataset Details
+## Dataset Details
 
 | Type            | Features                                                                 |
 |-----------------|--------------------------------------------------------------------------|
@@ -38,18 +38,18 @@ This project uses machine learning to **predict heart disease** using clinical f
 
 ---
 
-## 📈 Methodology
+## Methodology
 
 ### 🔍 Exploratory Data Analysis
 - Count plots and grouped visualizations for categorical features
 - Correlation heatmaps to identify top predictive features
 
-### ✅ Feature Selection
+### Feature Selection
 Selected features:
 - `MaxHR`, `Oldpeak`, `ExerciseAngina_Y`
 - `ST_Slope_Flat`, `ST_Slope_Up`
 
-### 🤖 Model Development
+### Model Development
 - **Algorithm**: `KNeighborsClassifier`
 - **Scaler**: `MinMaxScaler`
 - **Split**: 85% train / 15% test (`random_state=417`)
@@ -57,12 +57,12 @@ Selected features:
   - `n_neighbors`: 1–100
   - `metrics`: `minkowski`, `euclidean`, `manhattan`
 
-📌 **Best Parameters**: `n_neighbors=32`, `metric=minkowski`  
-📌 **Test Accuracy**: **83.33%**
+**Best Parameters**: `n_neighbors=32`, `metric=minkowski`  
+**Test Accuracy**: **83.33%**
 
 ---
 
-## 🖼️ Results
+## Results
 
 | Feature           | Accuracy (KNN k=3) |
 |-------------------|-------------------|
@@ -72,7 +72,7 @@ Selected features:
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 1. **Clone the repository**  
    ```bash
