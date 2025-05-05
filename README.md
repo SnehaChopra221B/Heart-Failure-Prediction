@@ -1,11 +1,10 @@
-# ❤️ Heart Disease Prediction
+# Heart Disease Prediction
 
 > *Predict the likelihood of heart disease using patient health indicators and K-Nearest Neighbors (KNN) modeling.*
 
 ![Heart Health](https://img.shields.io/badge/healthcare-AI%20project-red?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/Machine%20Learning-scikit--learn-yellow?logo=scikit-learn)
-![License](https://img.shields.io/github/license/your-username/heart-disease-prediction)
 
 ---
 
@@ -34,13 +33,13 @@ This project uses machine learning to **predict heart disease** using clinical f
 | Target Variable | `HeartDisease` (0 = No, 1 = Yes)                                         |
 | Samples         | 918 rows                                                                 |
 
-🛠 *Note: Cleaned dataset by replacing/imputing physiologically implausible values.*
+ *Note: Cleaned dataset by replacing/imputing physiologically implausible values.*
 
 ---
 
 ## Methodology
 
-### 🔍 Exploratory Data Analysis
+### Exploratory Data Analysis
 - Count plots and grouped visualizations for categorical features
 - Correlation heatmaps to identify top predictive features
 
